@@ -1,16 +1,33 @@
-.container img {
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    margin-left: 25px;
+}
+
+.hero img {
     width: 150px;
     height: auto;
     border-radius: 200px;
     float: right;
 }
-.container nav ul {
+.hero nav ul {
     list-style: none;
     display: flex;
     line-height: 150px;
     font-size: 36px;
 }
 
-.container nav ul li {
+.hero nav ul li {
     margin-right: 25px;
+}
+
+.hero_2 ul {
+    list-style: none;
+}
+
+.hero_2 img {
+    width: 100px;
 }
