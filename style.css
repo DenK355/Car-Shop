@@ -3,8 +3,9 @@
     padding: 0;
 }
 
-.container {
+.container ul{
     margin-left: 25px;
+    list-style: none;
 }
 
 .hero img {
@@ -14,7 +15,6 @@
     float: right;
 }
 .hero nav ul {
-    list-style: none;
     display: flex;
     line-height: 150px;
     font-size: 36px;
@@ -22,10 +22,6 @@
 
 .hero nav ul li {
     margin-right: 25px;
-}
-
-.hero_2 ul {
-    list-style: none;
 }
 
 .hero_2 img {
