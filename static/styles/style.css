@@ -1,31 +1,103 @@
 *{
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+.container {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
 .container ul{
-    margin-left: 25px;
     list-style: none;
 }
 
-.hero img {
+header {
+    margin-bottom: 50px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+header img {
     width: 150px;
     height: auto;
     border-radius: 200px;
     float: right;
 }
-.hero nav ul {
+header nav ul {
     display: flex;
     line-height: 150px;
     font-size: 36px;
 }
 
-.hero nav ul li {
-    margin-right: 25px;
+header nav ul li {
+    margin-right: 50px;
 }
 
-.hero_2 img {
-    width: 100px;
+.information img {
+    width: 200px;
+}
+
+.information h1 {
+    margin-bottom: 25px;
+}
+
+.sct-dec div {
+    display: inline-block;
+    width: 70%;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+.sct-dec div h2 {
+    margin-bottom: 2.5px;
+}
+
+.sct-dec div p {
+    margin-bottom: 10px;
+}
+
+.sct-dec div h3 {
+    margin-bottom: 2.5px;
+}
+
+.sct-dec {
+    margin-bottom: 50px;
+}
+
+.sct-dec a {
+    text-decoration: none;
+    color: white;
+    background-color: grey;
+    padding: 10px 10px;
+    border-radius: 100px;
+    font-weight: bold;
+    font-size: 17px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: block;
+    width: fit-content;
+    margin-top: 15px;
+}
+
+.sct-dec img {
+    display: inline-block;
+    vertical-align: middle; 
+    margin-left: 20px;
+    width: 200px;
+    height: auto;
+    margin-bottom: 0;
+}
+
+#table {
+    margin-bottom: 50px;
+}
+
+table {
+    margin: 0 auto;
 }
 
 table, thead, tbody {
@@ -34,4 +106,23 @@ table, thead, tbody {
 
 tr,th {
     border: 3px solid teal;
+}
+
+footer ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+footer ul li {
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.italic {
+    font-style: italic;
 }
