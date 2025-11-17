@@ -104,7 +104,7 @@ table, thead, tbody {
     border: 3px solid teal;
 }
 
-tr,th {
+tr, td, th {
     border: 3px solid teal;
 }
 
