@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+form > fieldset > div {
+    margin-top: 20px;
+}
+
+.btns {
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;  
+}
+.btns > input {
+    font-size: 18px;
+    margin-right: 35px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.btns > input:first-child {
+    padding: 2.5px 5px;
+}
+
+.btns > input:last-child {
+    padding: 2.5px 20px;
+}
+
+fieldset {
+    margin: 0px 2.5px;
+    padding: 0px 10px;
+    font-size: 17px;
+    padding-bottom: 15px;
+}
+
+fieldset > legend {
+    font-size: 20px;
+}
+
+fieldset > div {
+    display: flex;
+    justify-content: space-between;
+}
+
+.drive-block > select {
+    width: 120px;
+}
+
+.contacts > div > label {
+    margin-right: 20px;
+}
+
+.car-info > div > select {
+    width: 120px;
+}
+
+.address-block {
+    align-items: center;
+}
+
+.used-block {
+    width: 80px;
+}
+
+.color-block {
+    justify-content: space-between;
+    width: 371px;
+}
+
+.color-block > div > label {
+    margin-right: 5px;
+}
+
+.price-block {
+    flex-direction: column;
+}
+
+.price-block > input {
+    width: 170px;
+}
+
+.price-block > datalist {
+    display: flex;
+    justify-content: space-between;
+    width: 170px;
+}
