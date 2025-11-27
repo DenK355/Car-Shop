@@ -5,51 +5,51 @@
 }
 
 form {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    margin-top: 50px;
-    width: 940px;
-    margin: 0 auto;
-    margin-top: 20px;
+    width: 900px;
+    margin: 0 auto;   
 }
 
-form > fieldset > div {
-    margin-top: 20px;
+.fieldset-flex {
+    display: flex;
+    justify-content: space-between;
 }
 
 .btns {
+    display: flex;
+    justify-content: center;
     margin-top: 20px;
 }
-.btns > input {
-    font-size: 18px;
-    margin-right: 35px;
-    border: 2px solid black;
-    border-radius: 5px;
+
+.btns > div {
+    margin-right: 40px;
 }
 
-.btns > input:first-child {
-    padding: 2.5px 5px;
-}
-
-.btns > input:last-child {
-    padding: 2.5px 20px;
+legend {
+    font-size: 20px;
+    margin-left: 5px;
 }
 
 fieldset {
-    margin: 0px 2.5px;
-    padding: 0px 10px;
+    padding: 15px 10px;
     font-size: 17px;
-    padding-bottom: 15px;
-}
-
-fieldset > legend {
-    font-size: 20px;
 }
 
 fieldset > div {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.birthday-block > input {
+    width: 165px;
+}
+
+.gender-block > div {
+    display: flex;
+}
+
+.gender-block > div > label {
+    margin-right: 5px;
 }
 
 .drive-block > select {
@@ -60,12 +60,12 @@ fieldset > div {
     margin-right: 20px;
 }
 
-.car-info > div > select {
-    width: 120px;
-}
-
 .address-block {
     align-items: center;
+}
+
+.car-info > div > select {
+    width: 130px;
 }
 
 .used-block {
@@ -74,11 +74,7 @@ fieldset > div {
 
 .color-block {
     justify-content: space-between;
-    width: 371px;
-}
-
-.color-block > div > label {
-    margin-right: 5px;
+    width: 345px;
 }
 
 .price-block {
@@ -93,4 +89,19 @@ fieldset > div {
     display: flex;
     justify-content: space-between;
     width: 170px;
+}
+
+.btns > div > input {
+    font-size: 18px;
+    margin-right: 35px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+.btns > div > input:first-child {
+    padding: 2.5px 7.5px;
+}
+
+.btns > div > input:last-child {
+    padding: 2.5px 25px;
 }
